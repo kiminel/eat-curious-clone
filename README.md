@@ -25,3 +25,5 @@ Run the following commands to spin up locally:
 - [Tailwind css](https://tailwindcss.com/)
 - [framer-motion](https://www.framer.com/)
 - [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer)
+- [react-slick](https://www.npmjs.com/package/react-slick)
+- [react-carousel](https://www.npmjs.com/package/slick-carousel)
