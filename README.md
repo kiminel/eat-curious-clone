@@ -23,3 +23,5 @@ Run the following commands to spin up locally:
 - [React.js](https://react.dev/)
 - [Next.js](https://nextjs.org/)
 - [Tailwind css](https://tailwindcss.com/)
+- [framer-motion](https://www.framer.com/)
+- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer)

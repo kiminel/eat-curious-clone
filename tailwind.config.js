@@ -15,6 +15,7 @@ module.exports = {
     fontFamily: {
       narrow: ["PT Sans Narrow", "sans-serif"],
       lilita: ["Lilita One", "cursive"],
+      anton: ["Anton", "sans-serif"],
     },
   },
   plugins: [],
