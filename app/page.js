@@ -1,3 +1,4 @@
+import About from "@components/About";
 import Hero from "@components/Hero";
 import ImageCarousel from "@components/ImageCarousel";
 
@@ -24,6 +25,7 @@ export default function Home() {
     <main>
       <Hero />
       <ImageCarousel images={images} />
+      <About />
     </main>
   );
 }

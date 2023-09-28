@@ -20,7 +20,7 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <Slider {...settings} className="w-full bg-green py-8">
+    <Slider {...settings} className="w-full bg-green py-12">
       {images.map((imageUrl, index) => (
         <div key={index} className="mx-2">
           <Image src={imageUrl} alt={"Carousel"} width={100} height={100} />
