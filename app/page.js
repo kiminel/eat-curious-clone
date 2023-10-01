@@ -1,6 +1,7 @@
-import About from "@components/About";
 import Hero from "@components/Hero";
 import ImageCarousel from "@components/ImageCarousel";
+import About from "@components/About";
+import Inspiring from "@components/Inspiring";
 
 const images = [
   "/bfb.png",
@@ -26,6 +27,7 @@ export default function Home() {
       <Hero />
       <ImageCarousel images={images} />
       <About />
+      <Inspiring />
     </main>
   );
 }
