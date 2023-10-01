@@ -8,7 +8,7 @@ import * as rightSquiggle from "../icons/right-squiggle.svg";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen bg-green text-white text-[16rem] font-anton text-center">
+    <div className="relative w-full h-screen bg-green text-white text-[16rem] font-anton text-center overflow-x-hidden">
       <motion.h1
         className="uppercase relative z-10"
         initial={{ opacity: 0, scale: 0.5 }}
