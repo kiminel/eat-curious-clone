@@ -2,6 +2,7 @@ import Hero from "@components/Hero";
 import ImageCarousel from "@components/ImageCarousel";
 import About from "@components/About";
 import Inspiring from "@components/Inspiring";
+import Positivity from "@components/Positivity";
 
 const images = [
   "/bfb.png",
@@ -28,6 +29,7 @@ export default function Home() {
       <ImageCarousel images={images} />
       <About />
       <Inspiring />
+      <Positivity />
     </main>
   );
 }

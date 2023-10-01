@@ -19,7 +19,7 @@ const About = () => {
         />
       </div>
 
-      <div className="min-h-screen w-full text-white bg-pink px-28 flex items-center">
+      <div className="min-h-screen w-full bg-pink px-28 flex items-center">
         <div className="grid grid-cols-3 w-full">
           <div className="col-span-2 text-green">
             <h1 className="text-8xl uppercase font-lilita">
