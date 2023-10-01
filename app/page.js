@@ -3,6 +3,7 @@ import ImageCarousel from "@components/ImageCarousel";
 import About from "@components/About";
 import Inspiring from "@components/Inspiring";
 import Positivity from "@components/Positivity";
+import Flavoursome from "@components/Flavoursome";
 
 const images = [
   "/bfb.png",
@@ -30,6 +31,7 @@ export default function Home() {
       <About />
       <Inspiring />
       <Positivity />
+      <Flavoursome />
     </main>
   );
 }

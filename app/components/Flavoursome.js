@@ -1,0 +1,37 @@
+import Image from "next/image";
+import React from "react";
+import * as eatTogether from "../icons/eat-together.svg";
+import * as rightSwirly from "../icons/right-swirly.svg";
+
+const Flavoursome = () => {
+  return (
+    <div>
+      <div className="absolute left-[85%] mt-[22rem]">
+        <Image src={rightSwirly} alt="Right swirly" width={150} height={150} />
+      </div>
+
+      <div className="min-h-screen w-full bg-green px-28 grid grid-cols-2 justify-center items-center">
+        <div className="col-span-1 flex justify-center">
+          <Image
+            src={eatTogether}
+            alt="eat together"
+            width={600}
+            height={600}
+          />
+        </div>
+        <div className="col-span-1 text-white space-y-6">
+          <h1 className=" text-8xl uppercase font-lilita">
+            Flavoursome food for everyone
+          </h1>
+
+          <p className="pr-48 text-lg">
+            Our curious creations are made for vegans and meat-eaters alike.
+            Because meat-free doesn&apos;t mean flavour free.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Flavoursome;
