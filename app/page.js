@@ -4,6 +4,7 @@ import About from "@components/About";
 import Inspiring from "@components/Inspiring";
 import Positivity from "@components/Positivity";
 import Flavoursome from "@components/Flavoursome";
+import FeaturesBenefits from "@components/FeaturesBenefits";
 
 const images = [
   "/bfb.png",
@@ -32,6 +33,7 @@ export default function Home() {
       <Inspiring />
       <Positivity />
       <Flavoursome />
+      <FeaturesBenefits />
     </main>
   );
 }
