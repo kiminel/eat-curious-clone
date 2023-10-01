@@ -19,11 +19,11 @@ const Positivity = () => {
       <div className="min-h-screen w-full bg-yellow px-28 flex">
         <div className="grid grid-cols-2 items-center">
           <div className="col-span-1 text-green">
-            <h1 className="text-8xl uppercase font-lilita">
+            <h1 className="text-[6.5rem] leading-none uppercase font-anton">
               Powered by positivity
             </h1>
 
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 py-6">
               <p className="col-span-1 text-lg">
                 We&apos;re not crusading or going up against an industry.
                 We&apos;re for flavour, for fun, for what&apos;s possible.

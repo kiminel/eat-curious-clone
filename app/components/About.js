@@ -22,12 +22,12 @@ const About = () => {
       <div className="min-h-screen w-full bg-pink px-28 flex items-center">
         <div className="grid grid-cols-3 w-full">
           <div className="col-span-2 text-green">
-            <h1 className="text-8xl uppercase font-lilita">
+            <h1 className="text-[6.5rem] leading-none uppercase font-anton pr-40">
               Curious... By name, by nature
             </h1>
 
-            <div className="grid grid-cols-3">
-              <p className="col-span-1">
+            <div className="grid grid-cols-3 py-6">
+              <p className="col-span-1 text-lg">
                 It&apos;s what inspires us to whip up, throw together, tear,
                 shake, and break the rules – on a mission to redefine food for a
                 new generation.

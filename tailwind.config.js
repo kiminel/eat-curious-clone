@@ -11,6 +11,7 @@ module.exports = {
       green: "#042f1a",
       white: "#fff6f6",
       pink: "#ff73b5",
+      yellow: "#d4ed6d",
     },
     fontFamily: {
       narrow: ["PT Sans Narrow", "sans-serif"],

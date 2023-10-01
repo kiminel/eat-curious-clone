@@ -6,7 +6,7 @@ import * as rightSwirly from "../icons/right-swirly.svg";
 const Flavoursome = () => {
   return (
     <div>
-      <div className="absolute left-[85%] mt-[22rem]">
+      <div className="absolute left-[80%] mt-[22rem]">
         <Image src={rightSwirly} alt="Right swirly" width={150} height={150} />
       </div>
 
@@ -19,12 +19,12 @@ const Flavoursome = () => {
             height={600}
           />
         </div>
-        <div className="col-span-1 text-white space-y-6">
-          <h1 className=" text-8xl uppercase font-lilita">
+        <div className="col-span-1 text-white">
+          <h1 className="pr-16 text-[6.5rem] leading-none uppercase font-anton">
             Flavoursome food for everyone
           </h1>
 
-          <p className="pr-48 text-lg">
+          <p className="pr-48 text-lg py-6">
             Our curious creations are made for vegans and meat-eaters alike.
             Because meat-free doesn&apos;t mean flavour free.
           </p>
