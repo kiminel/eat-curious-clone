@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import * as logo from "../icons/logo.svg";
+import InfiniteMarquee from "./InfiniteMarquee";
 
 const Header = () => {
   return (
@@ -29,8 +30,9 @@ const Header = () => {
         <li className="hover:cursor-pointer">
           <a className="font-narrow">Recipes</a>
         </li>
+
         <li className="bg-pink p-2 rounded-[4px] text-green hover:cursor-pointer">
-          <a className="text-xl font-lilita">Contact us</a>
+          <InfiniteMarquee text={"Contact us"} />
         </li>
       </ul>
     </nav>
