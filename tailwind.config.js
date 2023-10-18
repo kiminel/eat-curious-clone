@@ -9,9 +9,12 @@ module.exports = {
     extend: {},
     colors: {
       green: "#042f1a",
+      lightGreen: "#00d082",
       white: "#fff6f6",
       pink: "#ff73b5",
+      red: "#f95b77",
       yellow: "#d4ed6d",
+      mustardYellow: "#fcb900",
     },
     fontFamily: {
       narrow: ["PT Sans Narrow", "sans-serif"],
