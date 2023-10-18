@@ -84,7 +84,7 @@ const Products = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <button className="bg-pink text-green font-anton uppercase my-12 text-2xl py-2 px-4 rounded-sm">
+        <button className="bg-pink text-green font-anton uppercase mt-12 text-2xl py-2 px-4 rounded-sm">
           View all
         </button>
       </div>
