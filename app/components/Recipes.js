@@ -36,8 +36,8 @@ const Recipes = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-green px-24">
-      <Slider {...settings} className="w-full h-full">
+    <div className="w-full bg-green px-24">
+      <Slider {...settings} className="">
         {images.map((image, index) => (
           <div
             key={index}
