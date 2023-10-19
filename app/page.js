@@ -7,6 +7,7 @@ import Flavoursome from "@components/Flavoursome";
 import FeaturesBenefits from "@components/FeaturesBenefits";
 import Products from "@components/Products";
 import Farms from "@components/Farms";
+import Recipes from "@components/Recipes";
 
 const images = [
   "/bfb.png",
@@ -38,6 +39,7 @@ export default function Home() {
       <FeaturesBenefits />
       <Products />
       <Farms />
+      <Recipes />
     </main>
   );
 }
