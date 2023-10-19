@@ -32,12 +32,13 @@ const Recipes = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 2,
+    adaptiveHeight: true,
     afterChange: (index) => setSliderIndex(index),
   };
 
   return (
-    <div className="w-full bg-green px-24">
-      <Slider {...settings} className="">
+    <div className="w-full bg-green px-24 pb-28">
+      <Slider {...settings} className="h=[700px]">
         {images.map((image, index) => (
           <div
             key={index}
