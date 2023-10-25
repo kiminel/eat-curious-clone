@@ -6,8 +6,8 @@ import * as linkedInIcon from "app/icons/linkedin.svg";
 
 const FeedMeMore = () => {
   return (
-    <div className="shape min-h-screen bg-white flex justify-center z-10">
-      <div className="z-10 mt-12">
+    <div className="shape min-h-screen bg-white flex justify-center z-10 ">
+      <div className="z-10 mt-28">
         <Image
           className="z-20"
           src="/feedmemore.svg"
@@ -16,7 +16,7 @@ const FeedMeMore = () => {
           height={500}
         />
 
-        <div className="z-10 w-full py-12 flex justify-evenly gap-4">
+        <div className="z-10 w-full pt-16 pb-8 flex justify-evenly gap-4 border-b border-solid border-green border-opacity-25">
           <input
             type="text"
             id="name"
@@ -36,7 +36,7 @@ const FeedMeMore = () => {
           </button>
         </div>
 
-        <div className="z-20 flex justify-between text-green">
+        <div className="pt-8 z-20 flex justify-between text-green">
           <div className="flex gap-4">
             <a>
               <Image
