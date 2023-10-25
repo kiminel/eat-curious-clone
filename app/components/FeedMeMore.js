@@ -1,5 +1,8 @@
 import Image from "next/image";
 import React from "react";
+import * as instagramIcon from "app/icons/insta.svg";
+import * as facebookIcon from "app/icons/fb.svg";
+import * as linkedInIcon from "app/icons/linkedin.svg";
 
 const FeedMeMore = () => {
   return (
@@ -31,6 +34,45 @@ const FeedMeMore = () => {
           <button className="font-anton uppercase w-40 h-14 bg-green text-white text-xl py-2 px-4 rounded-md">
             Sign up
           </button>
+        </div>
+
+        <div className="z-20 flex justify-between text-green">
+          <div className="flex gap-4">
+            <a>
+              <Image
+                src={instagramIcon}
+                width={20}
+                height={20}
+                alt="Social Media Instagram"
+                className="text-green"
+              />
+            </a>
+            <a>
+              <Image
+                src={facebookIcon}
+                width={20}
+                height={20}
+                alt="Social Media Facebook"
+                className="text-green"
+              />
+            </a>
+            <a>
+              <Image
+                src={linkedInIcon}
+                width={20}
+                height={20}
+                alt="Social Media LinkedIn"
+                className="text-green"
+              />
+            </a>
+            <div className="uppercase font-narrow">Privacy policy</div>
+          </div>
+          <div className="uppercase font-narrow">
+            <span className="text-2xl">&copy; </span>
+            <span className="text-lg">
+              EAT Curious {new Date().getFullYear()}
+            </span>
+          </div>
         </div>
       </div>
     </div>
