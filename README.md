@@ -2,11 +2,7 @@
 
 ### Hosted Link:
 
-[Eat Curious Clone](https://eat-curious.com/)
-
-### Official Website:
-
-[Eat Curious](https://eat-curious.com/)
+[Eat Curious Clone](https://eat-curious-clone.vercel.app/)
 
 ---
 
