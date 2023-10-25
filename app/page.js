@@ -10,6 +10,7 @@ import Farms from "@components/Farms";
 import Recipes from "@components/Recipes";
 import Intrigued from "@components/Intrigued";
 import FeedMeMore from "@components/FeedMeMore";
+import DroolingYet from "@components/DroolingYet";
 import FooterBanner from "@components/FooterBanner";
 
 const images = [
@@ -40,6 +41,7 @@ export default function Home() {
       <Positivity />
       <Flavoursome />
       <FeaturesBenefits />
+      <DroolingYet />
       <Products />
       <Farms />
       <Recipes />

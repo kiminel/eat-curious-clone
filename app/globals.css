@@ -35,3 +35,18 @@
   content: "";
   top: 0;
 }
+
+.green-shape {
+  position: relative;
+  overflow: hidden;
+}
+.green-shape::before {
+  border-radius: 100%;
+  position: absolute;
+  background: #042f1a;
+  right: -4px;
+  left: -4px;
+  bottom: -500px;
+  content: "";
+  top: 0;
+}
