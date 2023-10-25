@@ -38,7 +38,7 @@ const FeedMeMore = () => {
 
         <div className="pt-8 z-20 flex justify-between text-green">
           <div className="flex gap-4">
-            <a>
+            <a href="https://www.instagram.com/eat_curious/" target="_blank">
               <Image
                 src={instagramIcon}
                 width={20}
@@ -47,7 +47,7 @@ const FeedMeMore = () => {
                 className="text-green"
               />
             </a>
-            <a>
+            <a href="https://www.facebook.com/eatcurious/" target="_blank">
               <Image
                 src={facebookIcon}
                 width={20}
@@ -56,7 +56,10 @@ const FeedMeMore = () => {
                 className="text-green"
               />
             </a>
-            <a>
+            <a
+              href="https://www.linkedin.com/company/eat-curious/?originalSubdomain=uk"
+              target="_blank"
+            >
               <Image
                 src={linkedInIcon}
                 width={20}
@@ -68,10 +71,16 @@ const FeedMeMore = () => {
             <div className="uppercase font-narrow">Privacy policy</div>
           </div>
           <div className="uppercase font-narrow">
-            <span className="text-2xl">&copy; </span>
-            <span className="text-lg">
-              EAT Curious {new Date().getFullYear()}
-            </span>
+            <a
+              href="https://fiasco.design/project/plant-based-brand-eat-curious/"
+              target="_blank"
+            >
+              <span className="text-2xl">&copy; </span>
+              <span className="text-lg">
+                EAT Curious {new Date().getFullYear()} - designed by fiasco
+                design
+              </span>
+            </a>
           </div>
         </div>
       </div>
