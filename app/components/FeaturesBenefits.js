@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import plantBased from "../../public/plantbased.png";
 import realIngredients from "../../public/realingredients.png";
 import unrealTexture from "../../public/unrealtexture.png";
@@ -33,38 +34,97 @@ const FeaturesBenefits = () => {
         Features & Benefits
       </h1>
       <div className="w-full grid grid-cols-4 gap-4">
-        <div className="col-span-1">
+        <motion.div
+          className="col-span-1"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
+          viewport={{ once: false }}
+          transition={{
+            duration: 0.2,
+            delay: 0.2,
+            scale: {
+              type: "spring",
+              damping: 15,
+              stiffness: 180,
+            },
+          }}
+        >
           {generateFeatBenefit(
             plantBased,
             "Plant Based",
             "Plant based",
             "Plant-protein yumminess, suitable for everyone."
           )}
-        </div>
-        <div className="col-span-1">
+        </motion.div>
+
+        <motion.div
+          className="col-span-1"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
+          viewport={{ once: false }}
+          transition={{
+            duration: 0.2,
+            delay: 0.4,
+            scale: {
+              type: "spring",
+              damping: 15,
+              stiffness: 180,
+            },
+          }}
+        >
           {generateFeatBenefit(
             realIngredients,
             "Real ingredients",
             "Real ingredients",
             "If we don't know exactly what an ingredient is, we don't include it."
           )}
-        </div>
-        <div className="col-span-1">
+        </motion.div>
+
+        <motion.div
+          className="col-span-1"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
+          viewport={{ once: false }}
+          transition={{
+            duration: 0.2,
+            delay: 0.6,
+            scale: {
+              type: "spring",
+              damping: 15,
+              stiffness: 180,
+            },
+          }}
+        >
           {generateFeatBenefit(
             unrealTexture,
             "Unreal texture",
             "Unreal texture",
             "It's not meat. No really, it's not!"
           )}
-        </div>
-        <div className="col-span-1">
+        </motion.div>
+
+        <motion.div
+          className="col-span-1"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
+          viewport={{ once: false }}
+          transition={{
+            duration: 0.2,
+            delay: 0.8,
+            scale: {
+              type: "spring",
+              damping: 15,
+              stiffness: 180,
+            },
+          }}
+        >
           {generateFeatBenefit(
             blandBanned,
             "Bland is banned",
             "Bland is banned",
             "Foodies unite, because here flavour rules."
           )}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
