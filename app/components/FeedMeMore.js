@@ -3,6 +3,7 @@ import React from "react";
 import * as instagramIcon from "app/icons/insta.svg";
 import * as facebookIcon from "app/icons/fb.svg";
 import * as linkedInIcon from "app/icons/linkedin.svg";
+import * as feedMeMore from "app/icons/feedmemore.svg";
 
 const FeedMeMore = () => {
   return (
@@ -10,7 +11,7 @@ const FeedMeMore = () => {
       <div className="z-10 mt-28">
         <Image
           className="z-20"
-          src="/feedmemore.svg"
+          src={feedMeMore}
           alt="feed me more"
           width={1500}
           height={500}
