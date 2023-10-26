@@ -1,11 +1,29 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
 import Image from "next/image";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const ImageCarousel = ({ images }) => {
+const ImageCarousel = () => {
+  const images = [
+    "/bfb.png",
+    "/brogs.png",
+    "/burgerboi.png",
+    "/collins.png",
+    "/firstchoice.png",
+    "/fripri.png",
+    "/hopschops.jpg",
+    "/mahirs.png",
+    "/peepaluk.png",
+    "/sfg.png",
+    "/tcb.png",
+    "/thehospitality.png",
+    "/weetabix.png",
+    "/yaus.png",
+    "/supertiffin.png",
+  ];
+
   const settings = {
     dots: false,
     infinite: true,
@@ -23,7 +41,12 @@ const ImageCarousel = ({ images }) => {
     <Slider {...settings} className="w-full bg-green py-12">
       {images.map((imageUrl, index) => (
         <div key={index} className="mx-2">
-          <Image src={imageUrl} alt={"Carousel"} width={100} height={100} />
+          <Image
+            src={imageUrl}
+            alt={"Client Carousel"}
+            width={100}
+            height={100}
+          />
         </div>
       ))}
     </Slider>

@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
 
 const Recipes = () => {
   const images = [
@@ -50,7 +50,7 @@ const Recipes = () => {
               {image.tag}
             </div>
             <Image
-              className="absolute object-cover h-full rounded-md hover:scale-105 duration-100 brightness-75"
+              className="absolute object-cover w-auto h-full rounded-md hover:scale-105 duration-100 brightness-75"
               src={image.src}
               alt={`Recipe ${index + 1}`}
               width={2500}

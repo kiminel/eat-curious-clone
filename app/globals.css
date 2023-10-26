@@ -20,12 +20,12 @@
   margin: 0 -10px;
 }
 
-.shape {
+.pink-shape {
   position: relative;
   overflow: hidden;
   height: 100px;
 }
-.shape::before {
+.pink-shape::before {
   border-radius: 100%;
   position: absolute;
   background: #ff73b5;

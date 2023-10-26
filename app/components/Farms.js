@@ -1,5 +1,6 @@
-import Image from "next/image";
+"use client";
 import React from "react";
+import Image from "next/image";
 
 const Farms = () => {
   return (
@@ -7,7 +8,7 @@ const Farms = () => {
       <div className="grid grid-cols-2 gap-20">
         <div className="col-span-1">
           <Image
-            className="rounded-md"
+            className="w-auto h-auto rounded-md"
             src="/farm.jpg"
             alt="Farm plants"
             width={800}

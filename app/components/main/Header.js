@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import * as logo from "../icons/logo.svg";
-import InfiniteMarquee from "./InfiniteMarquee";
+import InfiniteMarquee from "../animations/InfiniteMarquee";
+import * as logo from "../../icons/logo.svg";
 
 const Header = () => {
   return (

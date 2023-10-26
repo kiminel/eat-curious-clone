@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
-import * as topSquiggle from "../icons/top-squiggle.svg";
-import * as leftSquiggle from "../icons/left-squiggle.svg";
-import * as rightSquiggle from "../icons/right-squiggle.svg";
+import { motion } from "framer-motion";
+import * as topSquiggle from "../../icons/top-squiggle.svg";
+import * as leftSquiggle from "../../icons/left-squiggle.svg";
+import * as rightSquiggle from "../../icons/right-squiggle.svg";
 
 const Hero = () => {
   return (

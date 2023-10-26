@@ -1,5 +1,6 @@
-import Image from "next/image";
+"use client";
 import React from "react";
+import Image from "next/image";
 import * as peaWoman from "../icons/pea-woman.svg";
 import * as leftSquiggle from "../icons/left-squiggle.svg";
 
@@ -12,12 +13,18 @@ const Inspiring = () => {
           alt="inspiring squiggle"
           width={60}
           height={60}
-          className="transform rotate-45"
+          className="w-auto h-auto transform rotate-45"
         />
       </div>
       <div className="min-h-screen w-full bg-white grid grid-cols-2 justify-center items-center">
         <div className="col-span-1 flex justify-center">
-          <Image src={peaWoman} alt="pea woman" width={600} height={600} />
+          <Image
+            src={peaWoman}
+            alt="pea woman"
+            width={600}
+            height={600}
+            className="w-auto h-auto"
+          />
         </div>
         <div className="col-span-1 text-green space-y-6">
           <h1 className="text-[6.5rem] leading-none uppercase font-anton">

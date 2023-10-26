@@ -13,6 +13,7 @@ const Positivity = () => {
           width={145}
           height={145}
           alt="positivity Squiggle"
+          className="w-auto h-auto"
         />
       </div>
 
@@ -37,6 +38,7 @@ const Positivity = () => {
               alt="happy group"
               width={600}
               height={600}
+              className="w-auto h-auto"
             />
           </div>
         </div>

@@ -1,5 +1,6 @@
-import Image from "next/image";
+"use client";
 import React from "react";
+import Image from "next/image";
 import * as eatTogether from "../icons/eat-together.svg";
 import * as rightSwirly from "../icons/right-swirly.svg";
 
@@ -7,7 +8,13 @@ const Flavoursome = () => {
   return (
     <div>
       <div className="absolute left-[80%] mt-[22rem]">
-        <Image src={rightSwirly} alt="Right swirly" width={150} height={150} />
+        <Image
+          src={rightSwirly}
+          alt="Right swirly"
+          width={150}
+          height={150}
+          className="w-auto h-auto"
+        />
       </div>
 
       <div className="min-h-screen w-full bg-green px-28 grid grid-cols-2 justify-center items-center">
@@ -17,6 +24,7 @@ const Flavoursome = () => {
             alt="eat together"
             width={600}
             height={600}
+            className="w-auto h-auto"
           />
         </div>
         <div className="col-span-1 text-white">

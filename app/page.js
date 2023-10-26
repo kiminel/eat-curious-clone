@@ -1,5 +1,5 @@
-import Hero from "@components/Hero";
-import ImageCarousel from "@components/ImageCarousel";
+import Hero from "@components/main/Hero";
+import InfiniteImageCarousel from "@components/animations/InfiniteImageCarousel";
 import About from "@components/About";
 import Inspiring from "@components/Inspiring";
 import Positivity from "@components/Positivity";
@@ -9,33 +9,14 @@ import Products from "@components/Products";
 import Farms from "@components/Farms";
 import Recipes from "@components/Recipes";
 import Intrigued from "@components/Intrigued";
-import FeedMeMore from "@components/FeedMeMore";
-import DroolingYet from "@components/DroolingYet";
-import FooterBanner from "@components/FooterBanner";
-
-const images = [
-  "/bfb.png",
-  "/brogs.png",
-  "/burgerboi.png",
-  "/collins.png",
-  "/firstchoice.png",
-  "/fripri.png",
-  "/hopschops.jpg",
-  "/mahirs.png",
-  "/peepaluk.png",
-  "/sfg.png",
-  "/tcb.png",
-  "/thehospitality.png",
-  "/weetabix.png",
-  "/yaus.png",
-  "/supertiffin.png",
-];
+import Footer from "@components/main/Footer";
+import DroolingYet from "@components/animations/DroolingYet";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <ImageCarousel images={images} />
+      <InfiniteImageCarousel />
       <About />
       <Inspiring />
       <Positivity />
@@ -46,8 +27,7 @@ export default function Home() {
       <Farms />
       <Recipes />
       <Intrigued />
-      <FeedMeMore />
-      <FooterBanner />
+      <Footer />
     </main>
   );
 }

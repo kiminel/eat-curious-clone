@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import * as instagramIcon from "app/icons/insta.svg";
@@ -5,9 +6,9 @@ import * as facebookIcon from "app/icons/fb.svg";
 import * as linkedInIcon from "app/icons/linkedin.svg";
 import * as feedMeMore from "app/icons/feedmemore.svg";
 
-const FeedMeMore = () => {
+const Footer = () => {
   return (
-    <div className="shape min-h-screen bg-white flex justify-center z-10 ">
+    <div className="pink-shape min-h-screen bg-white flex justify-center z-10 ">
       <div className="z-10 mt-28">
         <Image
           className="z-20"
@@ -88,4 +89,4 @@ const FeedMeMore = () => {
     </div>
   );
 };
-export default FeedMeMore;
+export default Footer;

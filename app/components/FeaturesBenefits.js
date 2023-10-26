@@ -1,5 +1,6 @@
-import Image from "next/image";
+"use client";
 import React from "react";
+import Image from "next/image";
 import plantBased from "../../public/plantbased.png";
 import realIngredients from "../../public/realingredients.png";
 import unrealTexture from "../../public/unrealtexture.png";
@@ -10,7 +11,13 @@ const FeaturesBenefits = () => {
     return (
       <>
         <div className="flex justify-center px-12 py-28">
-          <Image src={imgSrc} alt={imgAlt} width={175} height={175} />
+          <Image
+            src={imgSrc}
+            alt={imgAlt}
+            width={175}
+            height={175}
+            className="w-auto h-auto"
+          />
         </div>
         <div className="text-green text-center">
           <h1 className="uppercase font-narrow text-3xl">{heading}</h1>

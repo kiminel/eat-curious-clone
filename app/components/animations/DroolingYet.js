@@ -1,5 +1,6 @@
-import Image from "next/image";
+"use client";
 import React from "react";
+import Image from "next/image";
 import * as droolingYet from "app/icons/drooling-yet.svg";
 
 const DroolingYet = () => {

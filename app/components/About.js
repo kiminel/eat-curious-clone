@@ -7,15 +7,21 @@ import * as pizzaMan from "../icons/pizza-man.svg";
 
 const About = () => {
   return (
-    <div>
-      <Image src={wavy} alt="wavy" className="w-full bg-green" />
+    <>
+      <Image
+        src={wavy}
+        alt="wavy"
+        className="w-full h-auto bg-green"
+        width={"auto"}
+        height={"auto"}
+      />
       <div className="absolute left-1/2 mt-24">
         <Image
           src={aboutSquiggle}
           width={60}
           height={60}
           alt="About Squiggle"
-          className="transform rotate-12"
+          className="w-auto h-auto transform rotate-12"
         />
       </div>
 
@@ -36,11 +42,17 @@ const About = () => {
           </div>
 
           <div className="col-span-1 -ml-20">
-            <Image src={pizzaMan} alt="pizza man" width={600} height={600} />
+            <Image
+              src={pizzaMan}
+              alt="pizza man"
+              width={600}
+              height={600}
+              className="w-auto h-auto "
+            />
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

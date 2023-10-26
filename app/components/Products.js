@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -47,7 +48,7 @@ const Products = () => {
               {product.name}
             </h1>
             <Image
-              className="absolute"
+              className="w-auto h-auto absolute"
               src={product.imageSrc}
               width={400}
               height={400}
