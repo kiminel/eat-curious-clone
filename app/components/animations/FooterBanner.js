@@ -1,9 +1,25 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import footerFlowerSquiggle from "app/icons/footer-banner-flower-squiggle.svg";
 
 const FooterBanner = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: -1000,
+    cssEase: "linear",
+    pauseOnHover: false,
+    arrows: false,
+  };
+
   const flowerImage = (
     <Image
       src={footerFlowerSquiggle}
@@ -14,20 +30,23 @@ const FooterBanner = () => {
   );
 
   return (
-    <div className="w-full h-20 z-50 -mt-20 relative flex items-center bg-pink uppercase text-green text-xl font-lilita gap-14">
+    <Slider
+      {...settings}
+      className="w-full -mt-20 pt-7 z-50 bg-yellow uppercase text-green text-xl font-lilita"
+    >
       <span>100% plant based</span>
-      {flowerImage}
+      <span>{flowerImage}</span>
       <span>dairy free</span>
-      {flowerImage}
+      <span>{flowerImage}</span>
       <span>packed with flavor</span>
-      {flowerImage}
+      <span>{flowerImage}</span>
       <span>100% plant based</span>
-      {flowerImage}
+      <span>{flowerImage}</span>
       <span>dairy free</span>
-      {flowerImage}
+      <span>{flowerImage}</span>
       <span>packed with flavor</span>
-      {flowerImage}
-    </div>
+      <span>{flowerImage}</span>
+    </Slider>
   );
 };
 
