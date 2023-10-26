@@ -46,7 +46,7 @@ const Recipes = () => {
             className="rounded-md h-[600px] relative overflow-hidden cursor-pointer outline-none"
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             transition={{
               duration: 0.2,
               delay: 0.2,

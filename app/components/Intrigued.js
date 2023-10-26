@@ -11,7 +11,7 @@ const Intrigued = () => {
         className="flex justify-center text-8xl font-anton text-green uppercase"
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         transition={{
           duration: 0.2,
           delay: 0.2,
@@ -29,7 +29,7 @@ const Intrigued = () => {
           className="absolute z-10 uppercase bg-pink py-2 px-4 text-green text-xl font-anton rounded-sm"
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{
             duration: 0.2,
             delay: 0.4,
@@ -45,7 +45,7 @@ const Intrigued = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{
             duration: 0.2,
             delay: 0.6,
