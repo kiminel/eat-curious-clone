@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -40,9 +41,21 @@ const Recipes = () => {
     <div className="w-full bg-green px-24 pb-28">
       <Slider {...settings} className="h=[700px]">
         {images.map((image, index) => (
-          <div
+          <motion.div
             key={index}
             className="rounded-md h-[600px] relative overflow-hidden cursor-pointer outline-none"
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ ease: "easeIn", opacity: 1, scale: 1 }}
+            viewport={{ once: false }}
+            transition={{
+              duration: 0.2,
+              delay: 0.2,
+              scale: {
+                type: "spring",
+                damping: 10,
+                stiffness: 180,
+              },
+            }}
           >
             <div
               className={`z-10 absolute right-5 top-5 bg-${image.color} text-green p-2 uppercase font-anton rotate-6 rounded-sm`}
@@ -57,7 +70,7 @@ const Recipes = () => {
               height={2500}
               priority
             />
-          </div>
+          </motion.div>
         ))}
       </Slider>
     </div>
