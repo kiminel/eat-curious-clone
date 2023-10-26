@@ -8,7 +8,7 @@ import * as feedMeMore from "app/icons/feedmemore.svg";
 
 const Footer = () => {
   return (
-    <div className="pink-shape min-h-screen bg-white flex justify-center z-10 ">
+    <div className="pink-shape min-h-[95vh] bg-white flex justify-center z-10">
       <div className="z-10 mt-28">
         <Image
           className="z-20"

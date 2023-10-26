@@ -10,7 +10,7 @@ const FooterBanner = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 3000,
     slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
