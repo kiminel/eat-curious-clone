@@ -32,7 +32,7 @@ const Recipes = () => {
     arrows: false,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 3,
     adaptiveHeight: true,
     afterChange: (index) => setSliderIndex(index),
   };

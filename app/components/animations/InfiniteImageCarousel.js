@@ -27,7 +27,7 @@ const ImageCarousel = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
@@ -38,7 +38,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <Slider {...settings} className="w-full bg-green py-12">
+    <Slider {...settings} className="w-full bg-green pt-2">
       {images.map((imageUrl, index) => (
         <div key={index} className="mx-2">
           <Image
