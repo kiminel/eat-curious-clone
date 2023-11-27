@@ -7,14 +7,8 @@ import * as rightSwirly from "../icons/right-swirly.svg";
 const Flavoursome = () => {
   return (
     <div>
-      <div className="absolute left-[80%] mt-[22rem]">
-        <Image
-          src={rightSwirly}
-          alt="Right swirly"
-          width={150}
-          height={150}
-          className="w-auto h-auto"
-        />
+      <div className="absolute right-[11%] mt-[27rem]">
+        <Image src={rightSwirly} alt="Right swirly" width={100} height={100} />
       </div>
 
       <div className="min-h-screen w-full bg-green px-28 grid grid-cols-2 justify-center items-center">
